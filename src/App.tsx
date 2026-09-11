@@ -462,9 +462,13 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-text-muted text-sm font-medium">© 2026 GoldUpz. All rights reserved.</p>
-        <p className="text-text-muted text-sm font-medium">Built for India 🇮🇳</p>
+      <div className="border-t border-gray-200 pt-8 flex flex-col gap-3 text-center md:text-left">
+        <p className="text-text-dark text-sm font-bold">Swarna Thuli Private Limited</p>
+        <p className="text-text-muted text-xs font-medium">158, New Military Road, Avadi, Chennai, Tamil Nadu, India</p>
+        <div className="flex flex-col md:flex-row justify-between items-center gap-2 pt-2">
+          <p className="text-text-muted text-sm font-medium">© 2026 GoldUpz. All rights reserved.</p>
+          <p className="text-text-muted text-sm font-medium">Built for India 🇮🇳</p>
+        </div>
       </div>
     </div>
   </footer>
